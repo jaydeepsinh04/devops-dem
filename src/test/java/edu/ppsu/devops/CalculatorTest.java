@@ -9,4 +9,12 @@ public class CalculatorTest {
     void testSubtract() {
         assertEquals(5, 10 - 5);
     }
+
+    @Test
+    void testSubtractWithValidInputs() {
+        int a = 10;
+        int b = 5;
+
+        assertEquals(5, a - b);
+    }
 }
